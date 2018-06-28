@@ -1,0 +1,7 @@
+import sys
+
+def func():
+    try:
+        print(sys.version)
+    except ImportError as error:
+        print((error.__class__.__name__ + ": " + error.message))

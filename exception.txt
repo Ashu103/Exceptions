@@ -1,0 +1,7 @@
+a=3
+if a <4:
+    try:
+        a=a/(a-3)
+        print(a)
+    except ZeroDivisionError as message:
+        print('Exception :',message)

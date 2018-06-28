@@ -1,0 +1,5 @@
+list=[1,2,3]
+try:
+    print(list[3])
+except IndexError:
+    print('array index out of range')

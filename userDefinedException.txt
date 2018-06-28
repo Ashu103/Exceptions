@@ -1,0 +1,10 @@
+while(1):
+
+    age=int(input('enter the age'))
+    try:
+        if(age<18):
+            raise PermissionError('grow some beard first ')
+        else:
+            print(age)
+    except TypeError:
+        print('get out')
